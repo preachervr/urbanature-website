@@ -46,15 +46,22 @@ header {
   padding: clamp(0.75rem, 2vw, 1.5rem) clamp(1rem, 5vw, 3rem);
 }
 
-.logo {
+.logo-container {
   z-index: 2;
-  width: 5rem;
-  height: 5rem;
+  width: clamp(3rem, 5vw, 7rem);
+  height: clamp(3rem, 5vw, 7rem);
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .unlogo {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .nav-links {
