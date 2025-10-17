@@ -411,6 +411,10 @@ footer {
     font-size: 0.9rem;
   }
 
+  .section1 ul {
+    font-size: 0.9rem;
+  }
+
   .section2, .section3 {
     padding: 1.5rem;
   }
