@@ -422,8 +422,7 @@ footer {
 
   .main-image-container img {
     width: 100%;
-    height: auto;
-    object-fit: cover;
+    height: 250px;
   }
 
   .services {
