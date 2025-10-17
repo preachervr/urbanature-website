@@ -186,6 +186,33 @@ main {
   color: var(--main-text);
 }
 
+.btn-offer {
+  align-self: center;
+  background: var(--accent-color);
+  border: none;
+  border-radius: 0.6rem;
+  color: var(--main-text);
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+  padding: clamp(1rem, 2vw, 1.5rem)
+           clamp(3rem, 2vw, 3.5rem)
+           clamp(1rem, 2vw, 1.5rem)
+           clamp(3rem, 2vw, 3.5rem);
+  font-size: clamp(0.8rem, 2vw, 1rem);
+  cursor: pointer;
+}
+
+.btn-offer-container {
+  align-self: center;
+}
+
+.btn-offer:hover {
+  cursor: pointer;
+  animation: mainbutton 2s ease-in-out infinite;
+}
+
 
 footer {
   grid-area: footer;
@@ -271,5 +298,20 @@ footer {
     box-shadow: none;
     background: none;
     flex-direction: row;
+  }
+}
+
+@keyframes mainbutton {
+  0% { 
+    transform: scale(1);
+    box-shadow: 0 0 5px var(--hover-highlight) 0 0 10px var(--hover-highlight) 0 0 15px var(--hover-highlight);
+   }
+  50% {
+    transform: scale(0.95);
+    box-shadow: 0 0 10px var(--hover-highlight), 0 0 15px var(--hover-highlight), 0 0 20px var(--hover-highlight);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 5px var(--hover-highlight), 0 0 10px var(--hover-highlight), 0 0 15px var(--hover-highlight);
   }
 }
