@@ -399,8 +399,10 @@ footer {
     gap: 1.5rem;
   }
 
-  .section1 h3 {
-    font-size: 0.8rem;
+  .section1 h1,
+  .section2 h1,
+  .section3 h1 {
+    font-size: 1rem;
   }
 
   .section2, .section3 {
