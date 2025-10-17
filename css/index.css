@@ -264,7 +264,7 @@ main {
 
 .main-image-container img {
   width: 100%;
-  height: 25rem;
+  height: auto;
   display: block;
   object-fit: cover;
 }
