@@ -232,6 +232,10 @@ footer {
     width: 100%;
   }
 
+  .text-wrapper {
+    padding: 1rem 1.5rem;
+  }
+
   .services-info p {
     font-size: 0.9rem;
   }
