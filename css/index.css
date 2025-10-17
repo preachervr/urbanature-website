@@ -421,11 +421,9 @@ footer {
   }
 
   .main-image-container img {
-    height: 100%;
-  }
-
-  .main-image {
-    height: 100%;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
   }
 
   .services {
