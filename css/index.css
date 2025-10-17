@@ -369,7 +369,7 @@ footer {
     opacity: 0;
     transition: transform 0.3s ease, opacity 0.3s ease;
     pointer-events: none;
-    z-index: 3;
+    z-index: 4;
   }
 
   .nav-links.active {
