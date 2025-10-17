@@ -399,6 +399,10 @@ footer {
     gap: 1.5rem;
   }
 
+  .section1 h3 {
+    font-size: 0.8rem;
+  }
+
   .section2, .section3 {
     padding: 1.5rem;
   }
@@ -411,6 +415,7 @@ footer {
     flex-direction: column;
     margin: 3rem 1rem;
   }
+
 
   .services-div {
     border-right: none;
