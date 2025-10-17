@@ -225,6 +225,7 @@ footer {
   .services-reversed {
     flex-direction: column;
     min-height: auto;
+    width: 100%;
   }
   .services-images-container,
   .services-info {
