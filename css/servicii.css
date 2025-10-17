@@ -273,6 +273,24 @@ footer {
   .services-info p {
     font-size: 0.9rem;
   }
+
+  .btn-offer {
+  align-self: center;
+  background: var(--accent-color);
+  border: none;
+  border-radius: 0.6rem;
+  color: var(--main-text);
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+  padding: clamp(0.7rem, 1vw, 1.2rem)
+           clamp(2rem, 2.5vw, 3rem)
+           clamp(0.7rem, 1vw, 1.2rem)
+           clamp(2rem, 2.5vw, 3rem)
+  font-size: clamp(0.8rem, 2vw, 1rem);
+  cursor: pointer;
+}
   
 }
 
